@@ -1,0 +1,4 @@
+bin/
+*.cfg
+.import/
+default_env.tres
