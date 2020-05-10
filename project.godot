@@ -21,10 +21,10 @@ config/icon="res://icon.png"
 
 [display]
 
-window/size/width=360
-window/size/height=640
-window/size/test_width=360
-window/size/test_height=640
+window/size/width=640
+window/size/height=360
+window/size/test_width=640
+window/size/test_height=360
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
 
@@ -38,5 +38,5 @@ window/stretch/aspect="expand"
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
 environment/default_clear_color=Color( 0.862745, 0.858824, 0.607843, 1 )
-environment/default_environment="res://default_env.tres"

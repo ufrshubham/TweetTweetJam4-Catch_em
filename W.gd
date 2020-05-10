@@ -4,10 +4,10 @@ var s=0
 var d=false
 func _physics_process(_d):
 	if !d:
-		$P.move_and_slide(Vector2(Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left"),0) * 400)
+		$P.move_and_slide(Vector2(Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left"),0) * 900)
 func _T():
 	var n=e.instance()
-	n.position=Vector2(rand_range(0,360),5)
+	n.position=Vector2(rand_range(0,640),5)
 	add_child(n)
 func _L(b):
 	get_tree().paused=true
